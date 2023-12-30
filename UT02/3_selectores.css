@@ -1,0 +1,50 @@
+@media print {
+  body {
+    font-size: 14px;
+    background-color: lightslategray;
+    font-family: JetBrains Mono;
+  }
+  /* Establece el tamaño de fuente para impresión */
+}
+
+@media screen {
+  body {
+    font-size: 16px;
+    background-color:
+      rgb(221, 232, 246);
+    text-align: justify;
+    padding-left: 4%;
+    padding-right: 4%;
+  }
+  /* Establece el tamaño de fuente para visualización */
+}
+
+/* Se pueden agrupar elementos a los que le afecta la misma propiedad*/
+h1, h2, p {
+  color: blue;
+}
+
+/* Afecta a todos los elementos a los que se les a asignado antes ese atributo
+
+  * {
+    color: black;
+  }
+
+*/
+/* em solo se verá afectado si es hijo de li*/
+li em {
+  color: red;
+}
+
+/* Si añadimos o no el asterísco, le damos una u otra jerarquía*/
+p * a { 
+  color: red; 
+}
+
+/**/
+p > em {
+  background-color: gray;
+}
+
+h1 + p {color: blue;}
+

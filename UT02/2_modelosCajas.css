@@ -1,0 +1,87 @@
+@media print {
+  body {
+    font-size: 14px;
+    background-color: lightslategray;
+    font-family: JetBrains Mono;
+  }
+  /* Establece el tamaño de fuente para impresión */
+}
+
+@media screen {
+  body {
+    font-size: 16px;
+    background-color:
+      rgb(221, 232, 246);
+    text-align: justify;
+    padding-left: 4%;
+    padding-right: 4%;
+  }
+  /* Establece el tamaño de fuente para visualización */
+}
+
+.prueba1 {
+  padding-left: 4%;
+  margin-left: 12px;
+}
+
+.prueba2 {
+  padding-left: 2%;
+}
+
+.prueba3 {
+  padding: 2% 2% 2% 2%;
+  border-radius: 10px;
+}
+
+div {
+  background-color: rgb(136, 191, 136);
+  border-radius: 10px;
+  width: 50%;
+  height: 150px;
+  /* Medidas del relleno del contenido*/
+  padding: 3px 20px 3px 20px;
+  /* Estilo de bordes*/
+  border-style: solid dashed dotted double;
+}
+
+.otrodiv{
+/* Edicion de estilos de borde*/
+ border-style: solid; 
+ border-width: thin medium thick 12px;
+
+ /* Color de borde*/
+ border-color: #333 rgb(0,0,255) #0044AC;
+
+}
+
+h1 {
+  padding: 4px 10px;
+  background: #ccc;
+}
+
+h1 {
+  padding: 4px 10px;
+  background: #ccc;
+  border-radius: 5px;
+}
+
+h1 {
+  border: .5em solid blue; 
+}
+
+h2 {
+  border-left: solid blue .5em; 
+}
+
+h3 {
+  border-right: solid .5em; 
+}
+
+/* En magin, los elementos top y bottom, colpasan. Es decir, se asume como margen entre ambos, el mayor */
+h1 {
+  margin: 10px 20px 10px 20px; 
+}
+
+h2 {
+  margin: 20px; 
+}
