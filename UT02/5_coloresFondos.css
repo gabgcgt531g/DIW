@@ -1,0 +1,63 @@
+@media print {
+  body {
+    font-size: 14px;
+    background-color: lightslategray;
+    font-family: JetBrains Mono;
+  }
+  /* Establece el tamaño de fuente para impresión */
+}
+
+@media screen {
+  body {
+    font-size: 16px;
+    background-color: rgb(255, 252, 230);
+    text-align: justify;
+    padding-left: 4%;
+    padding-right: 4%;
+  }
+  /* Establece el tamaño de fuente para visualización */
+}
+
+
+p {color: #0000FF; }
+p {color: #00F; }
+p {color: rgb(0,0,255); }
+p {color: rgb(0%, 0%, 255%); }
+p {color: gray; }
+
+
+p {padding: 5px; background-color: #ccc;}
+
+
+body {background-image: url(fondo.gif);}
+p#cabecera {background-image: url(fondo-cuerpo.gif);}
+
+
+div#cuerpo {background-image: url(fondo.gif); background-repeat: no-repeat;}
+div.horiz {background-image: url(imagen.gif); background-repeat: repeat-x;}
+div.vert {background-image: url(imagen.gif); background-repeat: repeat-y;}
+
+
+body {background-image: url(fondo.gif); 
+  background-position: top center;
+  background-repeat: no-repeat;}
+
+  
+body {background-image: url(fondo.gif); 
+  background-position: 150px 150px;
+  background-repeat: no-repeat; }
+
+
+body {background-image: url(imagen.gif); 
+  background-position: 50% 50%;
+  background-repeat: no-repeat; }
+
+
+body {background: url(fondo.gif) fixed top center no-repeat; }
+div.cabecera {background: repeat-x url(fondo.gif) red; }
+p {background: #ccc; }
+#contenido span.imagen {background: url("imagenes/imagen.gif") 0 50% no-repeat; }
+
+  
+    
+

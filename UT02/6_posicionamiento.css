@@ -1,0 +1,31 @@
+@media print {
+  body {
+    font-size: 14px;
+    background-color: lightslategray;
+    font-family: JetBrains Mono;
+  }
+  /* Establece el tamaño de fuente para impresión */
+}
+
+@media screen {
+  body {
+    font-size: 16px;
+    background-color: rgb(255, 252, 230);
+    text-align: justify;
+    padding-left: 4%;
+    padding-right: 4%;
+  }
+  /* Establece el tamaño de fuente para visualización */
+}
+
+
+#caja2 {
+  width: 130px;
+  height: 130px;
+  background-color:#00FF00;
+  border: solid 1px black;
+  margin: 10px;
+  /* Posicionamento relativo */
+  position: relative;
+  left: 50px; top: 50px;
+}

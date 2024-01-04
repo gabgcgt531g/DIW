@@ -10,8 +10,7 @@
 @media screen {
   body {
     font-size: 16px;
-    background-color:
-      rgb(221, 232, 246);
+    background-color: rgb(255, 252, 230);
     text-align: justify;
     padding-left: 4%;
     padding-right: 4%;
@@ -19,32 +18,88 @@
   /* Establece el tamaño de fuente para visualización */
 }
 
+/*SELECTORES DE ELEMENTO*/
 /* Se pueden agrupar elementos a los que le afecta la misma propiedad*/
-h1, h2, p {
-  color: blue;
-}
+h1, h2, p {color: blue;}
 
 /* Afecta a todos los elementos a los que se les a asignado antes ese atributo
-
   * {
     color: black;
   }
-
 */
-/* em solo se verá afectado si es hijo de li*/
-li em {
-  color: red;
-}
+/* => SELECTORES CONTEXTURALES */
 
-/* Si añadimos o no el asterísco, le damos una u otra jerarquía*/
-p * a { 
+/* SELECTOR DESCENDENTE */
+/* em solo se verá afectado si es hijo de li */
+li em {color: red;}
+
+/* Si añadimos o no el asterísco, le damos una u otra jerarquía */
+p * a {color: goldenrod;}
+
+/* SELECTOR HIJO */
+/* Se ve afectado solo a los elemetnos que cuelgan */
+.padre > p {color: green;}
+
+/* SELECTOR ADYACENTE */
+/* Sol afecta al elemento inmediatamente siguiente */
+p + p {color: red;}
+
+/* SELECTOR DE CLASE e ID */
+/*Se llama al elemento con el id asignado y una almohadilla (#) */
+p#textocabecera{font-size: 18px;}
+#textocabecera{
+  color: greenyellow;
+  background-color: black;
+}
+/* Para varios elementos con un tratamiento similar usamos class  se utiliza el punto (.) */
+.especial {color: green;}
+h1.especial{color: red;}
+
+.especial {color: green;}
+
+/* PSEUDOSELECTORES */
+/* Utilizados para las anchor (a) */
+a:link {color: red;}
+a:visited {color: blue;}
+a:hover {color: fuchsia;}
+a:active {color: maroon;}
+
+/* Decorado de anchor */
+a:link {
   color: red; 
+  text-decoration: none;
+}
+a:visited {
+  color: blue; 
+  text-decoration: none;
+}
+a:hover {
+  color: red; 
+  text-decoration: underline;
 }
 
-/**/
-p > em {
-  background-color: gray;
+/*PSUEDOLEMENTO*/
+/* */
+p:first-line {
+  letter-spacing: 6pt;
+}
+p.definicion:first-letter {
+  font-size: 300%; 
+  color: black;
+}
+p.incompleto:after {
+  content: " continuará ...";
 }
 
-h1 + p {color: blue;}
+/* PALABRA !important*/
+/* Hace prevalecer, sobre el resto de reglas a la acompañada por ella*/
+#principal {
+  width: 800 px;
+  width: 1200px;
+}
+
+#principal {
+  width: 800 px !important;
+  width: 1200px;
+}
 

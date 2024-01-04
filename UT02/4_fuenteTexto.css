@@ -1,0 +1,42 @@
+@media print {
+  body {
+    font-size: 14px;
+    background-color: lightslategray;
+    font-family: JetBrains Mono;
+  }
+  /* Establece el tamaño de fuente para impresión */
+}
+
+@media screen {
+  body {
+    font-size: 16px;
+    background-color: rgb(255, 252, 230);
+    text-align: justify;
+    padding-left: 4%;
+    padding-right: 4%;
+  }
+  /* Establece el tamaño de fuente para visualización */
+}
+#font{
+  font-family: 'Cascadia Code';
+  font-size: 20px;
+  font-weight:600;
+  font-style: italic;
+  /* El texto pasa a mostrarse en mayúsculas de un tamaño menor */
+  font-variant:small-caps;
+}
+
+#text{
+  text-decoration: line-through;
+  /* Cada palabra empieza con mayúscula */
+  text-transform: capitalize;
+   /* Espacio entre dos líneas consecutivas */
+  line-height: 18px;
+  text-indent: 10%;
+  letter-spacing: 8px;
+   /* Gestiona los espacios en blanco */
+   white-space: pre;
+}
+
+
+
