@@ -11,9 +11,9 @@
 
 <body>
 
-    <h1>Accesibilidad Ejemplos mal</h1>
+    <h1>Accesibilidad</h1>
 
-    <h2>Elementos repetitivos - Ejemplo mal</h2>
+    <h2>Elementos repetitivos</h2>
 
     <nav>
         <ul>
@@ -36,7 +36,7 @@
 
     <hr />
 
-    <h2>Formularios - Ejemplo mal</h2>
+    <h2>Formularios</h2>
 
     <form method="post" action="#">
         <p><strong>Información personal</strong></p>
@@ -49,7 +49,7 @@
         <br />Página personal:
         <br />
         <input type="url" placeholder="URL de tu página web personal" />
-        <br/>
+        <br />
 
         <p><strong>Otra información</strong></p>
         Fecha:
@@ -90,42 +90,43 @@
 
     <hr />
 
-    <h2>Imágenes - Ejemplo mal</h2>
+    <h2>Imágenes</h2>
 
     <p>
-        <a href="#"><img src="./img/flecha-izq.gif" alt="Flecha roja que apunta a la izquierda" /></a>
-        <a href="#">Índice</a>
-        <a href="#"><img src="./img/flecha-der.gif" alt="Flecha roja que apunta a la derecha" /></a>
+        <a href="#"><img src="./img/flecha-izq.gif" alt="Siguiente" /></a>
+        <a href="#" id="indice">Índice</a>
+        <a href="#"><img src="./img/flecha-der.gif" alt="Anterior" /></a>
     </p>
 
     <p>
         Menu:
-        <br />
-        <br />
-        <a href="#"><img src="./img/logo.png" alt="Únete" />Únete</a>
-        <br />
-        <a href="#"><img src="./img/logo.png" alt="Equipo" />Equipo</a>
-        <br />
-        <a href="#"><img src="./img/logo.png" alt="Contacto" />Contacto</a>
-        <br />
-        <a href="#"><img src="./img/logo.png" alt="Síguenos" />Síguenos</a>
-    </p>
+    <ul id="imagenes">
+        <li><a href="#">Únete</a></li>
+        <li><a href="#">Equipo</a></li>
+        <li><a href="#">Contacto</a></li>
+        <li><a href="#">Síguenos</a></li>
+    </ul>
 
-    <p>Teléfono de contacto:<img src="./img/telefono.gif" alt="Teléfono de contacto" /></p>
+
+    <p>Teléfono de contacto:<img src="./img/telefono.gif" alt="999123456" /></p>
 
     <hr />
 
-    <h2>Enlace - Ejemplo mal</h2>
+    <h2>Enlace</h2>
 
     <h3>A mi hija mayor se le ha caido su primer diente</h3>
-
     <p>Estabamos desayunando cuando de repente sucedió.
-        <a href="#">Más información.</a></p>
+        <a href="#">Más información
+            <span>
+                sobre la noticia titulada "A mi hija mayor se le ha caído su primer diente"
+            </span>.
+        </a>
+    </p>
 
     <h3>A mi hija pequeña le ha salido su primera muela</h3>
-
     <p>Después de comer, la pequeña dijo que le molestaba la boca.
-        <a href="#">Más información.</a></p>
+        <a href="#">Más información.</a>
+    </p>
 
     <hr />
 

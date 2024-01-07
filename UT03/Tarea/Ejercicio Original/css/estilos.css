@@ -1,32 +1,3 @@
-#indice{
-  font-size: 20px;
-  padding: 5%;
-}
-
-#imagenes{
-  list-style-image:
-  url(./img/logo.png);
-}
-
-ul.tablist li {
-  display: inline-block;
-  list-style: none;
-}
-
-a:hover, a:focus, a:active{
- position: relative;
-}
-a:hover span, a:focus span, a:active span { 
-  left: 20px; top: 20px; width: 100px; 
-} 
-a:hover span:before, a:focus span:before, a:active span:before { 
-  content: "Mas informacion "; 
-}
-
-
-
-/*
-
 .importante {
   background-color: #333;
   color: #777;
@@ -66,7 +37,10 @@ a.selected, a.tab:focus {
 a.tab:focus {
   background: #eee;
 }
-
+ul.tablist li {
+  display: inline-block;
+  list-style: none;
+}
 div.tabpanel {
   margin-top: 0;
   padding: 1.5em;
@@ -75,5 +49,3 @@ div.tabpanel {
 div.tabpanel:focus {
   background: #eee;
 }
-
-*/
