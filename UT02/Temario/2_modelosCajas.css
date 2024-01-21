@@ -48,7 +48,6 @@ div {
 /* Edicion de estilos de borde*/
  border-style: solid; 
  border-width: thin medium thick 12px;
-
  /* Color de borde*/
  border-color: #333 rgb(0,0,255) #0044AC;
 

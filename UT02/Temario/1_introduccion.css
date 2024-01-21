@@ -35,7 +35,6 @@ p {
 .prueba3 {
   background-color: black;
   color: rgb(242, 200, 200);
-  font-family: 'Times New Roman', Times, serif;
   text-shadow: 1px 1px 4px #888888, -2px -2px 4px #cccccc;
   font-family: JetBrains Mono;
 }
